@@ -1,0 +1,31 @@
+{
+  "name": "form_bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node ./dist/app.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "20.8.7",
+    "colors": "1.4.0",
+    "puppeteer": "21.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.4.0",
+    "eslint": "8.51.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-config-standard-with-typescript": "39.1.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-n": "15.0.0 || 16.0.0 ",
+    "eslint-plugin-promise": "6.0.0",
+    "typescript": "5.2.2"
+  }
+}
